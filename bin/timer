@@ -1,0 +1,6 @@
+#! ruby
+
+require_relative '../lib/timer_count.rb'
+
+tc = TimerCount.new(ARGV)
+tc.main_window
